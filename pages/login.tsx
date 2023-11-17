@@ -9,13 +9,12 @@ export default function Login() {
 
   return (
     <Layout title="Log in to Spotify">
-      <div className="flex flex-col items-center justify-center w-screen h-screen gap-20">
+      <div className="flex flex-col items-center justify-center w-screen h-screen gap-20 rounded-lg">
         <Image
-          src="/images/spotify_logo.png"
+          src="/images/hippodrome_logo.JPG"
           alt="spotify logo"
-          width={320}
-          height={96}
-          objectFit="contain"
+          width={500}
+          height={500}
         />
         <button
           className="flex px-12 py-2 text-lg tracking-widest uppercase rounded-full focus:outline-none bg-primary hover:bg-opacity-80"
